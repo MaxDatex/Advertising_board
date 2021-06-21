@@ -1,0 +1,29 @@
+header {
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    background: url("images/bg.jpg") left / auto 100% no-repeat;
+}
+nav {
+    font-size: 16pt;
+    width: 180px;
+    float: left;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+}
+nav a {
+    display: block;
+    margin: lOpx Opx;
+}
+nav a:hover {
+  background-color: #575;
+  color: white;
+}
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+section {
+    margin-left: 200px;
+}
